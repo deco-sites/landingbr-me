@@ -29,7 +29,7 @@ export interface MainColors {
   /**
    * @format color
    * @title Tertiary
-   * @default #00FF7F
+   * @default #000000
    */
   "tertiary": string;
 }

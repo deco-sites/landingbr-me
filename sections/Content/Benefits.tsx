@@ -46,7 +46,7 @@ export default function Benefits(
 
     return (
       <div
-        class={`${
+        class={`border-[#d6c8bf] ${
           reverse ? "bg-primary text-primary-content p-4 lg:px-8 lg:py-4" : ""
         } flex gap-4 ${
           benefitLayout == "piledup" ? "flex-col items-center text-center" : ""
@@ -61,7 +61,7 @@ export default function Benefits(
         <div class="flex-none">
           <Icon
             id={benefit.icon}
-            class={reverse ? "text-base-100" : "text-primary"}
+            class={"text-[#d6c8bf]"}
             width={36}
             height={36}
             strokeWidth={0.01}
@@ -114,7 +114,7 @@ export default function Benefits(
             alignment={layout?.headerAlignment || "center"}
           />
           <div class="w-full flex justify-center">
-            <div class="grid grid-cols-2 gap-4 w-full py-6 px-4 border border-base-300 lg:gap-8 lg:grid-flow-col lg:auto-cols-fr lg:p-10">
+            <div class="grid grid-cols-2 gap-4 w-full py-6 px-4 border border-[#d6c8bf] lg:gap-8 lg:grid-flow-col lg:auto-cols-fr lg:p-10">
               {listOfBenefits}
             </div>
           </div>

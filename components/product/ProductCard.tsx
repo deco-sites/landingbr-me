@@ -258,10 +258,10 @@ function ProductCard(
                 class={`line-through text-base-300 text-xs ${
                   l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
                 }`}
-              >
+                >
                 {formatPrice(listPrice, offers?.priceCurrency)}
               </div>
-              <div class="text-accent text-base lg:text-xl">
+              <div class="text-[#7b343b] lg:text-xl">
                 {formatPrice(price, offers?.priceCurrency)}
               </div>
             </div>
